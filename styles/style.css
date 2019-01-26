@@ -7,7 +7,10 @@ body {
 
 }
 .container {
-    align: center;
+    width: 960px;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
 }
 .header {
     background: #ebebeb;
@@ -37,10 +40,11 @@ body {
 .aside{
     background: #ebebeb;
     text-align: center;
-    height: 390px;
-    width: 388px;
     margin: 15px 0px 0px 15px;
-    float: left;
+    float: left;    
+    
+   
+    
 }
 .footer {
     background: #ebebeb;
@@ -69,3 +73,4 @@ p {
     content: "";
     clear: both;
     display: table;
+  }
